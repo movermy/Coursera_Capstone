@@ -634,276 +634,17 @@ The shape of queens venues df is: (2101, 7)
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}93}]:} \PY{n}{queens\PYZus{}venues\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Venue Category}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}159}]:} \PY{n}{queens\PYZus{}venues\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Venue Category}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}93}]:} Pizza Place                                 84
-         Deli / Bodega                               69
-         Chinese Restaurant                          67
-         Bakery                                      55
-         Donut Shop                                  55
-         Bank                                        49
-         Pharmacy                                    48
-         Bar                                         46
-         Sandwich Place                              43
-         Korean Restaurant                           41
-         Grocery Store                               40
-         Italian Restaurant                          39
-         Mexican Restaurant                          38
-         Coffee Shop                                 34
-         Supermarket                                 33
-         Park                                        31
-         Latin American Restaurant                   30
-         Ice Cream Shop                              28
-         Thai Restaurant                             28
-         Gym / Fitness Center                        28
-         Beach                                       27
-         Mobile Phone Shop                           26
-         Bus Station                                 26
-         Diner                                       26
-         Fast Food Restaurant                        25
-         Gym                                         24
-         Sushi Restaurant                            24
-         Café                                        22
-         Hotel                                       22
-         Bagel Shop                                  21
-         American Restaurant                         21
-         Fried Chicken Joint                         21
-         Caribbean Restaurant                        20
-         Japanese Restaurant                         20
-         Indian Restaurant                           20
-         Cosmetics Shop                              20
-         Spa                                         17
-         Pub                                         17
-         Playground                                  16
-         South American Restaurant                   16
-         Seafood Restaurant                          16
-         Asian Restaurant                            16
-         Clothing Store                              15
-         Convenience Store                           15
-         Greek Restaurant                            15
-         Food Truck                                  14
-         Restaurant                                  13
-         Liquor Store                                13
-         Bubble Tea Shop                             13
-         Peruvian Restaurant                         12
-         Spanish Restaurant                          12
-         Dessert Shop                                11
-         Discount Store                              11
-         Bus Stop                                    10
-         Middle Eastern Restaurant                    9
-         Burger Joint                                 9
-         Wine Shop                                    8
-         Market                                       8
-         Hookah Bar                                   8
-         Intersection                                 8
-         Supplement Shop                              8
-         Shipping Store                               8
-         Metro Station                                8
-         BBQ Joint                                    7
-         Department Store                             7
-         Yoga Studio                                  7
-         Sporting Goods Shop                          7
-         Mediterranean Restaurant                     7
-         Food                                         7
-         Pet Store                                    7
-         Breakfast Spot                               7
-         Steakhouse                                   7
-         Martial Arts Dojo                            6
-         Wine Bar                                     6
-         Vegetarian / Vegan Restaurant                6
-         Vietnamese Restaurant                        6
-         Food \& Drink Shop                            6
-         Gourmet Shop                                 6
-         Filipino Restaurant                          6
-         Hotpot Restaurant                            6
-         Noodle House                                 6
-         French Restaurant                            6
-         Salon / Barbershop                           6
-         Hotel Bar                                    5
-         Scenic Lookout                               5
-         Lounge                                       5
-         Brewery                                      5
-         Jewelry Store                                5
-         Baseball Field                               5
-         Train Station                                5
-         Shoe Store                                   5
-         Trail                                        4
-         Performing Arts Venue                        4
-         Plaza                                        4
-         Rental Car Location                          4
-         Flower Shop                                  4
-         New American Restaurant                      4
-         Basketball Court                             4
-         Smoke Shop                                   4
-         Gastropub                                    4
-         Bowling Alley                                4
-         Shopping Mall                                4
-         Sports Bar                                   4
-         Snack Place                                  4
-         Kids Store                                   4
-         Southern / Soul Food Restaurant              4
-         Gas Station                                  4
-         Optical Shop                                 4
-         Arepa Restaurant                             4
-         Furniture / Home Store                       4
-         Surf Spot                                    4
-         Video Game Store                             4
-         Moving Target                                4
-         Karaoke Bar                                  4
-         Food Court                                   4
-         Health Food Store                            4
-         Gift Shop                                    4
-         Construction \& Landscaping                   4
-         Beer Garden                                  4
-         Dance Studio                                 4
-         Women's Store                                4
-         Frozen Yogurt Shop                           3
-         Fruit \& Vegetable Store                      3
-         Cocktail Bar                                 3
-         Candy Store                                  3
-         Turkish Restaurant                           3
-         Electronics Store                            3
-         Shanghai Restaurant                          3
-         Video Store                                  3
-         Laundromat                                   3
-         Taco Place                                   3
-         Boutique                                     3
-         Board Shop                                   3
-         Ramen Restaurant                             3
-         Fish Market                                  3
-         Szechuan Restaurant                          3
-         Empanada Restaurant                          3
-         Movie Theater                                3
-         Lingerie Store                               3
-         Athletics \& Sports                           3
-         Arts \& Crafts Store                          3
-         Colombian Restaurant                         3
-         Men's Store                                  3
-         Farmers Market                               3
-         Himalayan Restaurant                         3
-         Brazilian Restaurant                         3
-         Cajun / Creole Restaurant                    3
-         Dog Run                                      3
-         Mattress Store                               3
-         Juice Bar                                    3
-         Eastern European Restaurant                  2
-         Shop \& Service                               2
-         Residential Building (Apartment / Condo)     2
-         Nail Salon                                   2
-         Dim Sum Restaurant                           2
-         Halal Restaurant                             2
-         Cuban Restaurant                             2
-         Argentinian Restaurant                       2
-         Other Great Outdoors                         2
-         Train                                        2
-         Toy / Game Store                             2
-         Irish Pub                                    2
-         Health \& Beauty Service                      2
-         Automotive Shop                              2
-         Hostel                                       2
-         Bistro                                       2
-         Gymnastics Gym                               2
-         Art Gallery                                  2
-         Poke Place                                   2
-         College Academic Building                    2
-         Afghan Restaurant                            2
-         Neighborhood                                 2
-         Malay Restaurant                             2
-         Weight Loss Center                           2
-         Cantonese Restaurant                         2
-         Pet Service                                  2
-         Accessories Store                            2
-         Tea Room                                     2
-         Sculpture Garden                             2
-         Dive Bar                                     2
-         Burrito Place                                2
-         Dumpling Restaurant                          2
-         Pool Hall                                    2
-         Tapas Restaurant                             2
-         Church                                       1
-         Tibetan Restaurant                           1
-         Hardware Store                               1
-         Post Office                                  1
-         Flea Market                                  1
-         Home Service                                 1
-         Gluten-free Restaurant                       1
-         Hunan Restaurant                             1
-         Business Service                             1
-         Salad Place                                  1
-         Museum                                       1
-         Theater                                      1
-         Concert Hall                                 1
-         Rest Area                                    1
-         Falafel Restaurant                           1
-         Rental Service                               1
-         Hobby Shop                                   1
-         Bookstore                                    1
-         Office                                       1
-         Egyptian Restaurant                          1
-         Motorcycle Shop                              1
-         Monument / Landmark                          1
-         Beach Bar                                    1
-         Tennis Court                                 1
-         Thrift / Vintage Store                       1
-         Warehouse Store                              1
-         Motel                                        1
-         Bus Line                                     1
-         Pedestrian Plaza                             1
-         Recreation Center                            1
-         Butcher                                      1
-         Rock Club                                    1
-         Romanian Restaurant                          1
-         Kosher Restaurant                            1
-         Polish Restaurant                            1
-         General Entertainment                        1
-         Bike Trail                                   1
-         Pie Shop                                     1
-         Storage Facility                             1
-         Indonesian Restaurant                        1
-         Hot Dog Joint                                1
-         Dosa Place                                   1
-         Fish \& Chips Shop                            1
-         Pier                                         1
-         Dry Cleaner                                  1
-         Cycle Studio                                 1
-         Roof Deck                                    1
-         History Museum                               1
-         Miscellaneous Shop                           1
-         Massage Studio                               1
-         Event Space                                  1
-         Skating Rink                                 1
-         German Restaurant                            1
-         Arts \& Entertainment                         1
-         Multiplex                                    1
-         Indie Movie Theater                          1
-         Skate Park                                   1
-         Comfort Food Restaurant                      1
-         Taiwanese Restaurant                         1
-         Buffet                                       1
-         Lake                                         1
-         Comedy Club                                  1
-         Resort                                       1
-         Food Stand                                   1
-         College Basketball Court                     1
-         Climbing Gym                                 1
-         Platform                                     1
-         Farm                                         1
-         Other Nightlife                              1
-         Building                                     1
-         Art Museum                                   1
-         Gay Bar                                      1
-         Check Cashing Service                        1
-         Nightclub                                    1
-         School                                       1
-         State / Provincial Park                      1
-         Bath House                                   1
-         Laundry Service                              1
-         Paper / Office Supplies Store                1
-         Souvlaki Shop                                1
-         Name: Venue Category, dtype: int64
+{\color{outcolor}Out[{\color{outcolor}159}]:} Pizza Place           84
+          Deli / Bodega         69
+          Chinese Restaurant    67
+          Bakery                55
+          Donut Shop            55
+          Name: Venue Category, dtype: int64
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
@@ -941,196 +682,17 @@ The shape of staten island venues df is: (840, 7)
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}95}]:} \PY{n}{staten\PYZus{}island\PYZus{}venues\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Venue Category}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}160}]:} \PY{n}{staten\PYZus{}island\PYZus{}venues\PYZus{}df}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Venue Category}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{head}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}95}]:} Pizza Place                                 55
-         Bus Stop                                    44
-         Deli / Bodega                               42
-         Italian Restaurant                          40
-         Pharmacy                                    23
-         Bagel Shop                                  23
-         Coffee Shop                                 19
-         Sandwich Place                              19
-         Bank                                        18
-         Chinese Restaurant                          18
-         Donut Shop                                  17
-         Ice Cream Shop                              15
-         Grocery Store                               15
-         Mexican Restaurant                          14
-         Cosmetics Shop                              14
-         Bar                                         14
-         Restaurant                                  13
-         Train Station                               12
-         Liquor Store                                12
-         Park                                        12
-         American Restaurant                         12
-         Sushi Restaurant                            11
-         Supermarket                                 10
-         Diner                                       10
-         Fast Food Restaurant                         9
-         Clothing Store                               9
-         Intersection                                 8
-         Discount Store                               7
-         Construction \& Landscaping                   7
-         Bakery                                       6
-         Beach                                        6
-         Convenience Store                            6
-         Pet Store                                    6
-         Japanese Restaurant                          6
-         Baseball Field                               6
-         Food                                         6
-         Café                                         6
-         Gift Shop                                    5
-         Hotel                                        5
-         Spa                                          5
-         Dessert Shop                                 5
-         Burger Joint                                 5
-         Playground                                   5
-         Nail Salon                                   4
-         Scenic Lookout                               4
-         Furniture / Home Store                       4
-         Optical Shop                                 4
-         Spanish Restaurant                           4
-         Pool                                         4
-         Tattoo Parlor                                4
-         Athletics \& Sports                           4
-         Gym / Fitness Center                         4
-         Taco Place                                   3
-         Rental Car Location                          3
-         Bowling Alley                                3
-         Juice Bar                                    3
-         Wings Joint                                  3
-         Music Store                                  3
-         BBQ Joint                                    3
-         Home Service                                 3
-         Thrift / Vintage Store                       3
-         Food \& Drink Shop                            3
-         Eastern European Restaurant                  3
-         Asian Restaurant                             3
-         Food Truck                                   3
-         Breakfast Spot                               3
-         Gastropub                                    3
-         Gym                                          3
-         Martial Arts Dojo                            3
-         Video Store                                  3
-         Sporting Goods Shop                          3
-         Salon / Barbershop                           3
-         Hookah Bar                                   2
-         Boat or Ferry                                2
-         Accessories Store                            2
-         Basketball Court                             2
-         Falafel Restaurant                           2
-         Museum                                       2
-         Pier                                         2
-         Moving Target                                2
-         Dog Run                                      2
-         Video Game Store                             2
-         Flower Shop                                  2
-         Market                                       2
-         Event Space                                  2
-         Shipping Store                               2
-         Dry Cleaner                                  2
-         Art Gallery                                  2
-         Gas Station                                  2
-         Miscellaneous Shop                           2
-         Health \& Beauty Service                      2
-         Big Box Store                                2
-         Cajun / Creole Restaurant                    2
-         Mobile Phone Shop                            2
-         Women's Store                                2
-         Thai Restaurant                              2
-         Brewery                                      2
-         Lawyer                                       2
-         Mattress Store                               2
-         Yoga Studio                                  2
-         Tanning Salon                                2
-         Gourmet Shop                                 2
-         Sports Bar                                   2
-         Steakhouse                                   2
-         Toll Plaza                                   1
-         Pub                                          1
-         Outdoors \& Recreation                        1
-         Outdoor Sculpture                            1
-         Theater                                      1
-         Smoothie Shop                                1
-         Hardware Store                               1
-         Sports Club                                  1
-         Sri Lankan Restaurant                        1
-         Theme Park                                   1
-         Monument / Landmark                          1
-         Bus Line                                     1
-         IT Services                                  1
-         Harbor / Marina                              1
-         Mini Golf                                    1
-         Business Service                             1
-         Peruvian Restaurant                          1
-         Historic Site                                1
-         Jewelry Store                                1
-         Caribbean Restaurant                         1
-         Recording Studio                             1
-         History Museum                               1
-         Concert Hall                                 1
-         Rock Club                                    1
-         Shoe Store                                   1
-         French Restaurant                            1
-         Trail                                        1
-         Dance Studio                                 1
-         Baseball Stadium                             1
-         Vegetarian / Vegan Restaurant                1
-         German Restaurant                            1
-         Performing Arts Venue                        1
-         Bubble Tea Shop                              1
-         Dim Sum Restaurant                           1
-         Insurance Office                             1
-         Skate Park                                   1
-         Comedy Club                                  1
-         Tapas Restaurant                             1
-         Music Venue                                  1
-         Middle Eastern Restaurant                    1
-         New American Restaurant                      1
-         Toy / Game Store                             1
-         Arcade                                       1
-         Vietnamese Restaurant                        1
-         Filipino Restaurant                          1
-         Campground                                   1
-         Indian Restaurant                            1
-         Tourist Information Center                   1
-         Plaza                                        1
-         Skating Rink                                 1
-         Racetrack                                    1
-         Department Store                             1
-         Locksmith                                    1
-         Outlet Mall                                  1
-         Polish Restaurant                            1
-         Farmers Market                               1
-         Butcher                                      1
-         Mediterranean Restaurant                     1
-         Motorcycle Shop                              1
-         Residential Building (Apartment / Condo)     1
-         Art Museum                                   1
-         Board Shop                                   1
-         Bookstore                                    1
-         Supplement Shop                              1
-         Beer Bar                                     1
-         Smoke Shop                                   1
-         Tex-Mex Restaurant                           1
-         Fish \& Chips Shop                            1
-         Golf Course                                  1
-         Bridal Shop                                  1
-         Check Cashing Service                        1
-         Hobby Shop                                   1
-         Arts \& Crafts Store                          1
-         Recreation Center                            1
-         Sculpture Garden                             1
-         Electronics Store                            1
-         Snack Place                                  1
-         Storage Facility                             1
-         Kids Store                                   1
-         Soup Place                                   1
-         Name: Venue Category, dtype: int64
+{\color{outcolor}Out[{\color{outcolor}160}]:} Pizza Place           55
+          Bus Stop              44
+          Deli / Bodega         42
+          Italian Restaurant    40
+          Pharmacy              23
+          Name: Venue Category, dtype: int64
 \end{Verbatim}
             
     \subsection{Prepare for Clustering}\label{prepare-for-clustering}
@@ -2316,95 +1878,107 @@ What clusters appear when each location is clustered individually?
     \subsubsection{Toronto map}\label{toronto-map}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}111}]:} \PY{n}{toronto\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{43.6532}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{79.3832}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}146}]:} \PY{n}{toronto\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{43.6532}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{79.3832}\PY{p}{]}
           \PY{n}{toronto\PYZus{}map} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{toronto\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{toronto\PYZus{}map} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{toronto\PYZus{}merged}\PY{p}{,} \PY{n}{toronto\PYZus{}map}\PY{p}{)}
-          \PY{n}{toronto\PYZus{}map}
+          \PY{c+c1}{\PYZsh{}toronto\PYZus{}map}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}111}]:} <folium.folium.Map at 0x1f0cc666550>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{toronto.png}
+\caption{toronto}
+\end{figure}
+
     
 
     \subsubsection{Manhattan Map}\label{manhattan-map}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}112}]:} \PY{n}{manhattan\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.7831}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9712}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}145}]:} \PY{n}{manhattan\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.7831}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9712}\PY{p}{]}
           \PY{n}{manhattan\PYZus{}map} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{manhattan\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{manhattan\PYZus{}map} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{manhattan\PYZus{}merged}\PY{p}{,} \PY{n}{manhattan\PYZus{}map}\PY{p}{)}
-          \PY{n}{manhattan\PYZus{}map}
+          \PY{c+c1}{\PYZsh{}manhattan\PYZus{}map}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}112}]:} <folium.folium.Map at 0x1f0cd884780>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{manhattan.png}
+\caption{Manhattan}
+\end{figure}
+
     
 
     \subsubsection{Queens map}\label{queens-map}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}113}]:} \PY{n}{queens\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.7282}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.7949}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}144}]:} \PY{n}{queens\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.7282}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.7949}\PY{p}{]}
           \PY{n}{queens\PYZus{}map} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{queens\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{queens\PYZus{}map} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{queens\PYZus{}merged}\PY{p}{,} \PY{n}{queens\PYZus{}map}\PY{p}{)}
-          \PY{n}{queens\PYZus{}map}
+          \PY{c+c1}{\PYZsh{}queens\PYZus{}map}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}113}]:} <folium.folium.Map at 0x1f0cd95a748>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{queens.png}
+\caption{Queens}
+\end{figure}
+
     
 
     \subsubsection{Staten Island Map}\label{staten-island-map}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}114}]:} \PY{n}{staten\PYZus{}island\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.5795}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{74.1502}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}143}]:} \PY{n}{staten\PYZus{}island\PYZus{}location} \PY{o}{=} \PY{p}{[}\PY{l+m+mf}{40.5795}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{74.1502}\PY{p}{]}
           \PY{n}{staten\PYZus{}island\PYZus{}map} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{staten\PYZus{}island\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{staten\PYZus{}island\PYZus{}map} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{p}{,} \PY{n}{staten\PYZus{}island\PYZus{}map}\PY{p}{)}
-          \PY{n}{staten\PYZus{}island\PYZus{}map}
+          \PY{c+c1}{\PYZsh{}staten\PYZus{}island\PYZus{}map}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}114}]:} <folium.folium.Map at 0x1f0cdace128>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{staten_island.png}
+\caption{Staten Island}
+\end{figure}
+
     \subsection{Macro map of all, centered in
 Toronto}\label{macro-map-of-all-centered-in-toronto}
 
 This is the macro data, but zoomed in for clarity
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}115}]:} \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{toronto\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}142}]:} \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{toronto\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{all\PYZus{}merged}\PY{p}{,} \PY{n}{all\PYZus{}map\PYZus{}toronto}\PY{p}{)}
-          \PY{n}{all\PYZus{}map\PYZus{}toronto}
+          \PY{c+c1}{\PYZsh{}all\PYZus{}map\PYZus{}toronto}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}115}]:} <folium.folium.Map at 0x1f0c7306978>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{all_1_a.png}
+\caption{All, 5 cluster, Toronto}
+\end{figure}
+
     \subsection{Macro map of all, centered in New
 York}\label{macro-map-of-all-centered-in-new-york}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}116}]:} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{p}{[}\PY{l+m+mf}{40.55}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9442}\PY{p}{]}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}141}]:} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{p}{[}\PY{l+m+mf}{40.55}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9442}\PY{p}{]}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}
           \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{all\PYZus{}merged}\PY{p}{,} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york}\PY{p}{)}
-          \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york}
+          \PY{c+c1}{\PYZsh{}all\PYZus{}map\PYZus{}new\PYZus{}york}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}116}]:} <folium.folium.Map at 0x1f0ce0cbe10>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{all_2_a.png}
+\caption{All, 5 cluster, NY}
+\end{figure}
+
     \subsection{Re-clustering macro/all, with more
 resolution}\label{re-clustering-macroall-with-more-resolution}
 
@@ -2427,16 +2001,18 @@ resolution}\label{macro-map-of-all-centered-in-toronto-higher-resolution}
 This is the macro data, but zoomed in for clarity, with more clusters
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}118}]:} \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{toronto\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}139}]:} \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{n}{toronto\PYZus{}location}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{11}\PY{p}{)}
           \PY{n}{all\PYZus{}map\PYZus{}toronto} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{all\PYZus{}merged}\PY{p}{,} \PY{n}{all\PYZus{}map\PYZus{}toronto}\PY{p}{)}
-          \PY{n}{all\PYZus{}map\PYZus{}toronto}
+          \PY{c+c1}{\PYZsh{}all\PYZus{}map\PYZus{}toronto}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}118}]:} <folium.folium.Map at 0x1f0cdc00b38>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{all_1_b.png}
+\caption{All, high cluster, Toronto}
+\end{figure}
+
     
 
     \subsection{Macro map of all, centered in New York, higher
@@ -2445,16 +2021,18 @@ resolution}\label{macro-map-of-all-centered-in-new-york-higher-resolution}
 This is the macro data, but zoomed in for clarity, with more clusters
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}119}]:} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{p}{[}\PY{l+m+mf}{40.55}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9442}\PY{p}{]}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}137}]:} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{folium}\PY{o}{.}\PY{n}{Map}\PY{p}{(}\PY{n}{location}\PY{o}{=}\PY{p}{[}\PY{l+m+mf}{40.55}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mf}{73.9442}\PY{p}{]}\PY{p}{,} \PY{n}{zoom\PYZus{}start}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}
           \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york} \PY{o}{=} \PY{n}{add\PYZus{}clusters\PYZus{}to\PYZus{}map}\PY{p}{(}\PY{n}{all\PYZus{}merged}\PY{p}{,} \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york}\PY{p}{)}
-          \PY{n}{all\PYZus{}map\PYZus{}new\PYZus{}york}
+          \PY{c+c1}{\PYZsh{}all\PYZus{}map\PYZus{}new\PYZus{}york}
 \end{Verbatim}
 
 
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}119}]:} <folium.folium.Map at 0x1f0ceab5630>
-\end{Verbatim}
-            
+    \begin{figure}
+\centering
+\includegraphics{all_2_b.png}
+\caption{All, high cluster, NY}
+\end{figure}
+
     
 
     \section{Discussion}\label{discussion}
@@ -2570,35 +2148,12 @@ could possible be combined, suggesting over fitting.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}125}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}147}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{4}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}125}]:}      Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
-          1728   Somerville  40.597711 -73.796648               0                  Park   
-          2083    Bayswater  40.611322 -73.765968               0                  Park   
-          
-               2nd Most Common Venue 3rd Most Common Venue 4th Most Common Venue  \textbackslash{}
-          1728     Electronics Store            Food Court     Food \& Drink Shop   
-          2083            Playground   Filipino Restaurant   Empanada Restaurant   
-          
-               5th Most Common Venue 6th Most Common Venue 7th Most Common Venue  \textbackslash{}
-          1728                  Food           Flower Shop           Flea Market   
-          2083           Event Space    Falafel Restaurant                  Farm   
-          
-               8th Most Common Venue 9th Most Common Venue 10th Most Common Venue  
-          1728           Fish Market     Fish \& Chips Shop    Filipino Restaurant  
-          2083        Farmers Market  Fast Food Restaurant      Fish \& Chips Shop  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}126}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{4}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}126}]:}      Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}147}]:}      Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
           1503     Neponsit  40.572037 -73.857547               4                 Beach   
           
                2nd Most Common Venue 3rd Most Common Venue 4th Most Common Venue  \textbackslash{}
@@ -2612,12 +2167,34 @@ could possible be combined, suggesting over fitting.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}127}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{2}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}151}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{3}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}127}]:}      Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}151}]:}          Neighborhood   Latitude  Longitude  Cluster Labels  \textbackslash{}
+          1565  Jamaica Estates  40.716805 -73.787227               3   
+          
+               1st Most Common Venue 2nd Most Common Venue 3rd Most Common Venue  \textbackslash{}
+          1565     Indian Restaurant          Intersection         Women's Store   
+          
+               4th Most Common Venue 5th Most Common Venue 6th Most Common Venue  \textbackslash{}
+          1565     Fish \& Chips Shop           Event Space    Falafel Restaurant   
+          
+               7th Most Common Venue 8th Most Common Venue 9th Most Common Venue  \textbackslash{}
+          1565                  Farm        Farmers Market  Fast Food Restaurant   
+          
+               10th Most Common Venue  
+          1565    Filipino Restaurant  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}152}]:} \PY{n}{queens\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{queens\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{2}\PY{p}{]}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}152}]:}      Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
           1729   Brookville  40.660003 -73.751753               2         Deli / Bodega   
           
                2nd Most Common Venue 3rd Most Common Venue 4th Most Common Venue  \textbackslash{}
@@ -2668,182 +2245,22 @@ are printed in full below.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}130}]:} \PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{4}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}150}]:} \PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{2}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}130}]:}       Neighborhood   Latitude  Longitude  Cluster Labels  \textbackslash{}
-          37    New Brighton  40.640615 -74.087017               4   
-          145    Grymes Hill  40.624185 -74.087248               4   
-          384      Park Hill  40.609190 -74.080157               4   
-          396      Arlington  40.635325 -74.165104               4   
-          631  Arden Heights  40.549286 -74.185887               4   
-          761  Randall Manor  40.635630 -74.098051               4   
-          789    Willowbrook  40.603707 -74.132084               4   
-          797   Sandy Ground  40.541140 -74.217766               4   
-          836      Fox Hills  40.617311 -74.081740               4   
+{\color{outcolor}Out[{\color{outcolor}150}]:}     Neighborhood   Latitude  Longitude  Cluster Labels 1st Most Common Venue  \textbackslash{}
+          148    Todt Hill  40.597069 -74.111329               2                  Park   
           
-              1st Most Common Venue 2nd Most Common Venue 3rd Most Common Venue  \textbackslash{}
-          37               Bus Stop         Deli / Bodega                  Park   
-          145         Moving Target               Dog Run              Bus Stop   
-          384              Bus Stop                 Hotel    Athletics \& Sports   
-          396              Bus Stop          Intersection         Boat or Ferry   
-          631              Pharmacy              Bus Stop           Coffee Shop   
-          761              Bus Stop                  Park         Deli / Bodega   
-          789              Bus Stop          Intersection            Bagel Shop   
-          797              Bus Stop          Intersection             Racetrack   
-          836              Bus Stop        Sandwich Place             BBQ Joint   
+              2nd Most Common Venue 3rd Most Common Venue 4th Most Common Venue  \textbackslash{}
+          148           Yoga Studio           Event Space     Food \& Drink Shop   
           
-              4th Most Common Venue 5th Most Common Venue 6th Most Common Venue  \textbackslash{}
-          37         Discount Store            Playground         Bowling Alley   
-          145           Yoga Studio    Falafel Restaurant     Food \& Drink Shop   
-          384           Coffee Shop  Gym / Fitness Center           Yoga Studio   
-          396           Coffee Shop         Deli / Bodega                 Hotel   
-          631           Pizza Place           Event Space                  Food   
-          761            Playground            Bagel Shop           Event Space   
-          789           Pizza Place    Chinese Restaurant         Deli / Bodega   
-          797           Art Gallery     Fish \& Chips Shop            Playground   
-          836           Yoga Studio           Event Space     Food \& Drink Shop   
+              5th Most Common Venue 6th Most Common Venue 7th Most Common Venue  \textbackslash{}
+          148                  Food           Flower Shop     Fish \& Chips Shop   
           
-              7th Most Common Venue        8th Most Common Venue 9th Most Common Venue  \textbackslash{}
-          37                Dog Run                   Donut Shop     Food \& Drink Shop   
-          145                  Food                  Flower Shop     Fish \& Chips Shop   
-          384    Falafel Restaurant            Food \& Drink Shop                  Food   
-          396     Electronics Store                  Flower Shop        Ice Cream Shop   
-          631           Flower Shop            Fish \& Chips Shop   Filipino Restaurant   
-          761                  Food                  Flower Shop     Fish \& Chips Shop   
-          789          Home Service  Eastern European Restaurant     Fish \& Chips Shop   
-          797                Market                   Food Truck    Falafel Restaurant   
-          836                  Food                  Flower Shop     Fish \& Chips Shop   
-          
-              10th Most Common Venue  
-          37                    Food  
-          145    Filipino Restaurant  
-          384            Flower Shop  
-          396      Fish \& Chips Shop  
-          631   Fast Food Restaurant  
-          761    Filipino Restaurant  
-          789                  Hotel  
-          797                   Food  
-          836    Filipino Restaurant  
-\end{Verbatim}
-            
-    \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}131}]:} \PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{staten\PYZus{}island\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{]}
-\end{Verbatim}
-
-
-\begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}131}]:}           Neighborhood   Latitude  Longitude  Cluster Labels  \textbackslash{}
-          49           Stapleton  40.626928 -74.077902               0   
-          80            Rosebank  40.615305 -74.069805               0   
-          149        South Beach  40.580247 -74.079553               0   
-          167  Castleton Corners  40.613336 -74.119181               0   
-          180    New Springville  40.594252 -74.164960               0   
-          248        Great Kills  40.549480 -74.149324               0   
-          312           Annadale  40.538114 -74.178549               0   
-          341        Tottenville  40.505334 -74.246569               0   
-          348      Tompkinsville  40.637316 -74.080554               0   
-          379          Sunnyside  40.612760 -74.097126               0   
-          424           Grasmere  40.598268 -74.076674               0   
-          489      Midland Beach  40.573527 -74.093483               0   
-          503         Grant City  40.576216 -74.105856               0   
-          557    Pleasant Plains  40.524699 -74.219831               0   
-          616          Rossville  40.549404 -74.215729               0   
-          652            Chelsea  40.594726 -74.189560               0   
-          657         Bloomfield  40.605779 -74.187256               0   
-          733            Clifton  40.619178 -74.072642               0   
-          750            Concord  40.604473 -74.084024               0   
-          768           Elm Park  40.630147 -74.141817               0   
-          
-              1st Most Common Venue 2nd Most Common Venue   3rd Most Common Venue  \textbackslash{}
-          49            Pizza Place        Discount Store      Mexican Restaurant   
-          80            Pizza Place    Italian Restaurant           Grocery Store   
-          149         Deli / Bodega                 Beach                    Pier   
-          167           Pizza Place         Deli / Bodega               Mini Golf   
-          180           Coffee Shop     Mobile Phone Shop             Pizza Place   
-          248           Pizza Place                   Bar      Italian Restaurant   
-          312           Pizza Place   American Restaurant            Dance Studio   
-          341        Cosmetics Shop    Mexican Restaurant      Italian Restaurant   
-          348           Pizza Place               Brewery  Thrift / Vintage Store   
-          379   American Restaurant                   Spa           Grocery Store   
-          424              Bus Stop         Grocery Store                    Bank   
-          489              Bus Stop            Restaurant                   Beach   
-          503           Pizza Place  Fast Food Restaurant      Miscellaneous Shop   
-          557            Donut Shop           Pizza Place           Deli / Bodega   
-          616           Pizza Place            Bagel Shop          Ice Cream Shop   
-          652        Ice Cream Shop        Sandwich Place      Spanish Restaurant   
-          657     Recreation Center            Theme Park          Discount Store   
-          733         Grocery Store         Train Station      Mexican Restaurant   
-          750   Peruvian Restaurant         Deli / Bodega             Supermarket   
-          768   American Restaurant    Italian Restaurant          Ice Cream Shop   
-          
-              4th Most Common Venue 5th Most Common Venue 6th Most Common Venue  \textbackslash{}
-          49         Sandwich Place            Restaurant                  Bank   
-          80     Mexican Restaurant          Intersection              Pharmacy   
-          149    Athletics \& Sports           Yoga Studio    Falafel Restaurant   
-          167         Tattoo Parlor         Grocery Store                  Bank   
-          180    Chinese Restaurant            Bagel Shop            Donut Shop   
-          248        Cosmetics Shop          Dessert Shop              Pharmacy   
-          312            Sports Bar            Restaurant         Train Station   
-          341         Deli / Bodega          Home Service              Bus Stop   
-          348                   Pub                  Café  Caribbean Restaurant   
-          379                   Gym                Market           Yoga Studio   
-          424           IT Services             Juice Bar            Nail Salon   
-          489          Dessert Shop      Basketball Court      Business Service   
-          503              Pharmacy     French Restaurant          Dessert Shop   
-          557           Yoga Studio        Breakfast Spot           Flower Shop   
-          616         Moving Target    Chinese Restaurant           Dry Cleaner   
-          652              Bus Stop            Steakhouse                 Diner   
-          657              Bus Stop                  Park                  Food   
-          733          Intersection        Discount Store           Pizza Place   
-          750           Coffee Shop         Tattoo Parlor  Gym / Fitness Center   
-          768         Deli / Bodega              Bus Stop           Pizza Place   
-          
-                     7th Most Common Venue 8th Most Common Venue  \textbackslash{}
-          49                   Coffee Shop  Fast Food Restaurant   
-          80     Cajun / Creole Restaurant        Sandwich Place   
-          149            Food \& Drink Shop                  Food   
-          167                   Bagel Shop        Sandwich Place   
-          180                 Optical Shop    Mexican Restaurant   
-          248               Sandwich Place    Chinese Restaurant   
-          312                        Diner              Pharmacy   
-          341       Thrift / Vintage Store                  Food   
-          348        Check Cashing Service        Sandwich Place   
-          379           Falafel Restaurant                  Food   
-          424                         Park              Pharmacy   
-          489                    Bookstore           Pizza Place   
-          503           Mexican Restaurant           Event Space   
-          557         Fast Food Restaurant           Dry Cleaner   
-          616                 Liquor Store     Convenience Store   
-          652               Farmers Market                  Food   
-          657                  Flower Shop     Fish \& Chips Shop   
-          733  Eastern European Restaurant    Chinese Restaurant   
-          750                         Park           Event Space   
-          768                         Café    Chinese Restaurant   
-          
-                     9th Most Common Venue     10th Most Common Venue  
-          49            Spanish Restaurant                 Skate Park  
-          80                    Restaurant             Discount Store  
-          149                  Flower Shop          Fish \& Chips Shop  
-          167                 Burger Joint        Japanese Restaurant  
-          180            Martial Arts Dojo             Sandwich Place  
-          248           Falafel Restaurant         Spanish Restaurant  
-          312                  Yoga Studio          Electronics Store  
-          341                  Flower Shop          Fish \& Chips Shop  
-          348                    Rock Club        Rental Car Location  
-          379                  Flower Shop          Fish \& Chips Shop  
-          424                       Bakery                 Bagel Shop  
-          489                 Liquor Store                  Pet Store  
-          503  Eastern European Restaurant              Tanning Salon  
-          557               Discount Store               Dessert Shop  
-          616                Deli / Bodega        American Restaurant  
-          652                  Flower Shop          Fish \& Chips Shop  
-          657          Filipino Restaurant       Fast Food Restaurant  
-          733                         Park  Cajun / Creole Restaurant  
-          750                  Flower Shop          Fish \& Chips Shop  
-          768                  Yoga Studio         Falafel Restaurant  
+              8th Most Common Venue 9th Most Common Venue 10th Most Common Venue  
+          148   Filipino Restaurant  Fast Food Restaurant         Farmers Market  
 \end{Verbatim}
             
     \subsection{Discussion of macro/all/combinded
@@ -2854,19 +2271,19 @@ has lived in Toronto select a neighborhood in Queens or Staten Island,
 because Toronto contains many (7 out of 9) common clusters clusters with
 both Queens and Staten Island. However, the Manhattan region of the
 Section \ref{all2} seems to be helpfull only for those looking for what
-appears to be the metro region (cluster 6). Although, even this category
+appears to be the metro region (cluster 4). Although, even this category
 is present in both potential move regions.
 
 Toronto does have some clusters with only one category, so those are
 detailed below.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}132}]:} \PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}153}]:} \PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}132}]:} 4    186
+{\color{outcolor}Out[{\color{outcolor}153}]:} 4    186
           3     38
           1     27
           6     11
@@ -2879,13 +2296,13 @@ detailed below.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}133}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged} \PY{o}{=} \PY{n}{all\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{\PYZgt{}} \PY{l+m+mi}{42}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}154}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged} \PY{o}{=} \PY{n}{all\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{\PYZgt{}} \PY{l+m+mi}{42}\PY{p}{]}
           \PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}133}]:} 4    59
+{\color{outcolor}Out[{\color{outcolor}154}]:} 4    59
           3    15
           1    11
           7     5
@@ -2897,13 +2314,13 @@ detailed below.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}134}]:} \PY{n}{all\PYZus{}ny\PYZus{}merged} \PY{o}{=} \PY{n}{all\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{l+m+mi}{42}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}155}]:} \PY{n}{all\PYZus{}ny\PYZus{}merged} \PY{o}{=} \PY{n}{all\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}merged}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{\PYZlt{}}\PY{o}{=} \PY{l+m+mi}{42}\PY{p}{]}
           \PY{n}{all\PYZus{}ny\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{value\PYZus{}counts}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}134}]:} 4    127
+{\color{outcolor}Out[{\color{outcolor}155}]:} 4    127
           3     23
           1     16
           6      6
@@ -2915,12 +2332,12 @@ detailed below.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}135}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{5}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}156}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{5}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}135}]:}            Neighborhood   Latitude  Longitude  Cluster Labels  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}156}]:}            Neighborhood   Latitude  Longitude  Cluster Labels  \textbackslash{}
           25  Scarborough Village  43.744734 -79.239476               5   
           
              1st Most Common Venue 2nd Most Common Venue 3rd Most Common Venue  \textbackslash{}
@@ -2937,12 +2354,12 @@ detailed below.
 \end{Verbatim}
             
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}136}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{2}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}157}]:} \PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{all\PYZus{}toronto\PYZus{}merged}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cluster Labels}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{2}\PY{p}{]}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}136}]:}                  Neighborhood  Latitude  Longitude  Cluster Labels  \textbackslash{}
+{\color{outcolor}Out[{\color{outcolor}157}]:}                  Neighborhood  Latitude  Longitude  Cluster Labels  \textbackslash{}
           163  Silver Hills, York Mills  43.75749 -79.374714               2   
           
               1st Most Common Venue 2nd Most Common Venue 3rd Most Common Venue  \textbackslash{}
@@ -2961,7 +2378,7 @@ detailed below.
     \subsection{Final Recommendation
 Table}\label{final-recommendation-table}
 
-The table below uses the mapped results for the top 4 represented
+The table below uses the mapped results for the top 3 represented
 clusters in the all/macro data to suggest a move location, given
 preferences of toronto and/or manhattan clusters
 
@@ -2977,9 +2394,9 @@ Recommended Move location\strut
 \midrule
 \endhead
 \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Cluster 6\strut
+Cluster 4\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Downtown Toronto and Manhattan\strut
+Downtown Toronto and/or Manhattan\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
 Northeast Queens or Northeast Staten Island\strut
 \end{minipage}\tabularnewline
@@ -2991,18 +2408,11 @@ Mid-town Toronto\strut
 Queens, either Laurelton Cluster or Bayswater neighborhoods\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Cluster 0\strut
+Cluster 1\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
 Western Toronto\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
 Southern Staten Island\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Cluster 5\strut
-\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Roselawn neighborhood of Toronto\strut
-\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
-Central or South Queens, central Staten Island\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
